@@ -12,11 +12,10 @@ const Appontment = () => {
 
   return (
     <>
-              
-
-          <div className=' shadow-md' >
-            <Request/>
-          </div>
+  
+      <div className=' shadow-md' >
+        <Request/>
+      </div>
       <Lastsection classname=' table-footer-group'/> 
 
     </>

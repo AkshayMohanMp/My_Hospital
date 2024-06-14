@@ -37,5 +37,9 @@
   }
 }
 body{
-  background-color: rgb(193, 222, 234);
+  background-color: rgb(149, 221, 252);
+}
+
+.text-shadow-lg{
+  text-shadow: 2px 2px 4px rgb(67, 2, 2);
 }

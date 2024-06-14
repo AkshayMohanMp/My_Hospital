@@ -1,0 +1,17 @@
+{
+  "name": "my-hospital",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/concurrently \"yarn Database\" \"yarn my_hospital\"",
+    "server": "cd database && yarn start",
+    "client": "cd My_hospital && yarn start"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+
+  "dependencies": {
+    "concurrently": "^3.5.0"
+  }
+}

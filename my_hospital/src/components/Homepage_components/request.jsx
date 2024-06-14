@@ -23,10 +23,10 @@ const Form = () => {
   return (
     <div className="flex justify-center">
       <div className="w-max h-70">
-        <h2 className="text-center text-2xl p-6 underline font-bold mb-4">Appointment Form</h2>
         <div className="grid grid-cols-2 p-8 gap-8  justify-items-center">
-          <div className="w-2/3">
-            <form onSubmit={handleSubmit}>
+          <div className=" shadow-lg shadow-sky-400  w-2/3">
+            <h2 className="text-center text-2xl p-6 underline text-shadow-xl shadow-outer font-bold mb-4" >Appointment Form </h2>
+            <form className=" w-full rounded-md  justify-items-center p-7 " onSubmit={handleSubmit}>
               <div className="mb-4">
                 <label htmlFor="name" className="block mb-2">Name:</label>
                 <input
@@ -119,7 +119,7 @@ const Form = () => {
                   required
                 />
               </div>
-              <button type="submit" className="flex justify-center self-center w-2/3 rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send</button>
+              <button type="submit" className=" shadow-xl shadow-indigo-500 flex justify-center self-center w-2/3   rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white  hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send</button>
             </form>
           </div>
           <div className="flex justify-items-center size-full">
@@ -132,8 +132,8 @@ const Form = () => {
           <Dialog.Panel className="max-w-lg space-y-4 border bg-white p-12">
             <Dialog.Title className="font-bold">Form Submitted</Dialog.Title>
             <p>Your Appointment has been submitted successfully!</p>
-            <div className="flex flex w-2/3 gap-4">
-              <button onClick={() => setIsOpen(false)} className="flex w-2/3 justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Close</button>
+            <div className=" flex flex w-2/3 gap-4">
+              <button  onClick={() => setIsOpen(false)} className="flex w-2/3 justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Close</button>
             </div>
           </Dialog.Panel>
         </div>

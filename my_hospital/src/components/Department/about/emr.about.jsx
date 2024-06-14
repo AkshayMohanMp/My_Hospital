@@ -7,7 +7,7 @@ const emrabout = () => {
       <img src="https://static.vecteezy.com/system/resources/previews/029/841/004/large_2x/blurred-hospital-emergency-room-abstract-medical-background-ai-generative-free-photo.jpg" alt="Emergency department" className="w-full size-full h-auto rounded-lg shadow-lg" />
     </div>
     <div className="flex flex-col justify-center">
-    <div className=" underline flex justify-center flex-wrap text-2xl font-sheriff font-bold mb-2"> About </div>
+    <div className=" underline flex justify-center flex-wrap text-2xl  font-sheriff font-bold mb-2"> About </div>
       <p className="text-gray-700 mb-4">
         The Medical Gastroenterology Department of The Centre of Excellence of Gastrosciences at Meitra Hospital focuses on the disorders that are related to the digestive system, liver, and pancreato-biliary tract. The department is well supported by technologically advanced tools to offer the best possible treatment to all our patients.
       </p>

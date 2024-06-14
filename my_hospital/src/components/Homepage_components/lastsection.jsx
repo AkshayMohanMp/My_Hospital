@@ -6,9 +6,9 @@ import { FaFacebook } from "react-icons/fa";
 
 const lastsection = () => {
   return (
-    <div className=' bg-gradient-to-r from-violet-500 to-fuchsia-500 flex place-content-end flex-wrap w-full '>
+    <div className='  bg-gradient-to-r shadow-lg shadow-white  from-violet-500 to-fuchsia-500  flex place-content-end flex-wrap w-full '>
       <div className='container mx-auto px-4 md:px-10 my-8 flex flex-col '>
-        <div className='grid grid-cols-3 mt-10 justify-items-center'>
+        <div className=' grid grid-cols-3 mt-10 justify-items-center'>
           <div className=' self-end pb-3'>
             <NavLink className="flex justify-between mb-3 flex-wrap font-bold text-base text-white" to="#">ABC Hospital</NavLink>
 
